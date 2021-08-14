@@ -1,0 +1,42 @@
+
+.MonHeader{
+    display:flex;
+    flex-direction: column;
+    color: snow;
+    background-image: url('../img/espace.jpg'); 
+    border:solid red;
+    width: 100%;
+    height: auto;
+    position: relative;
+    top:0px;
+  }
+  
+  p{
+  justify-content: center;
+  align-items: center;
+  }
+
+  .maBanniere{
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+      padding-right: 40%;
+      align-items: center;
+  }
+  
+  .MenuHorz1 ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* padding: 10px;
+    margin: 10px; */
+    border: solid white;
+    list-style: none;
+  }
+  
+
+img{
+    width: 90px;
+    height:auto;
+}

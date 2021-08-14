@@ -1,11 +1,47 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content:start;
+  align-items: center;  
   text-align: center;
+  width: 100%;
+  height:100vh;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+
+
+
+h1{
+  border:solid black;
+  height: auto;
+}
+
+
+
+.MonFooter{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border: solid blueviolet;
+  width: 100%;
+  height:30px;
+  bottom: 0px;
+}
+ 
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
